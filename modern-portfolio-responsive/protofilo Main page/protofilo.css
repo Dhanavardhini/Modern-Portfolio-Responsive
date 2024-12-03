@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+header {
+    background: linear-gradient(to right, #ea7217, #7099e1df);
+}
+body {
+    background: linear-gradient(to right, #6de8fd52, #f8ff9b);
+     font-family: "Rubik", sans-serif;
+}
+nav li{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.header-a{
+    font-size: 23px;
+    font-weight: bolder;
+}
+header img.rounded-circle {
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.header-h6{font-size: 18px;
+}
+.education-h2,.about-h2,.technical-h2,.project-h2,footer h2{
+    word-spacing: 4px;
+}
+.education,.about,.technical{
+    line-height:30px;
+    word-spacing: 8px;
+}
+.cardtitle{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+section {
+    padding: 40px 20px;
+}
+.card {
+    transition: transform 0.3s;
+}
+.card-text{
+    line-height:30px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+footer p{
+    line-height:20px;
+    word-spacing: 8px;
+}
